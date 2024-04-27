@@ -1,16 +1,3 @@
-'''
-Used to train a 3D Autoencoder Generative Adversarial Network (3D AEGAN)
-on 3D voxel data. 
-The GAN consists of two parts: a generator (an encoder-decoder network) 
-and a discriminator. The generator creates new voxel data, and the 
-discriminator tries to distinguish between real and generated
-
-->Adam optimizer for the generator and discriminator
-->Binary Cross Entropy (BCE) loss functions for the generator and discriminator
-
-'''
-
-
 # Import necessary libraries
 import numpy as np
 import torch
